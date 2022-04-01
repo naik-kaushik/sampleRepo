@@ -8,7 +8,7 @@ geocode('Mumbai',(error,data)=>{
     console.log("Message : ",error," Data : ",data);
     if(data){
         forecast(data.lat,data.lon,(err,res)=>{
-            console.log("Message is : ",err," Res : ",res)
+            console.log("Message is is : ",err," Res : ",res)
         })
     }
 })
